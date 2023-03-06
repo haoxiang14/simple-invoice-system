@@ -1,1 +1,3 @@
-This is a simple invoice system created by using Python and HTML to generate the invoice in PDF
+# Simple Python Invoice Generating System
+
+😁 This is a simple invoice system created by using Python and HTML to generate the invoice in PDF
