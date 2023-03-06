@@ -1,0 +1,83 @@
+<style>
+
+    /* Increase the font size of the invoice header */
+    h1 {
+      font-size: 50px;
+    }
+  
+    /* Increase the font size of the invoice section headings */
+    h2 {
+      font-size: 24px;
+    }
+  
+    /* Increase the font size of the invoice text */
+    p {
+      font-size: 20px;
+    }
+  
+    /* Increase the font size of the invoice table headings */
+    th {
+      font-size: 18px;
+    }
+  
+    /* Increase the font size of the invoice table data */
+    td {
+      font-size: 16px;
+    }
+  </style>
+  
+
+  <div>
+    <h1>INVOICE<br /><br /></h1>
+    <p><strong>Invoice Number:</strong> {{invoice_number}}</p>
+    <p><strong>Date:</strong> {{date}}&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr />
+    <p>&nbsp;</p>
+    <p><strong>TO:</strong> Next Century Life Pte. Ltd (For Youth)</p>
+    <p><strong> PAY TO: </strong> Tan Hao Xiang</p>
+    <p><strong> BANK: </strong> Maybank <br /><br /><strong>Account Name:</strong> Tan Hao Xiang</p>
+    <p><strong>Account Number:</strong> 151071671070 <br /><br /><strong>DuitNow ID:</strong> 01127768326 <br /><br /></p>
+    <table style="width: 433px;" border="1">
+    <tbody>
+    <tr>
+    <td style="width: 80.125px;">Week</td>
+    <td style="width: 97.0938px; text-align: center;">Hours</td>
+    <td style="width: 76.1406px; text-align: center;">Rate (RM)</td>
+    <td style="width: 151.641px; text-align: center;">Amount (RM)</td>
+    </tr>
+    <tr>
+    <td style="width: 80.125px;">1st Week</td>
+    <td style="width: 97.0938px; text-align: center;">{{hours_1}}</td>
+    <td style="width: 76.1406px; text-align: center;">15</td>
+    <td style="width: 151.641px; text-align: center;">{{amount_1}}</td>
+    </tr>
+    <tr>
+    <td style="width: 80.125px;">2nd Week</td>
+    <td style="width: 97.0938px; text-align: center;">{{hours_2}}</td>
+    <td style="width: 76.1406px; text-align: center;">15</td>
+    <td style="width: 151.641px; text-align: center;">{{amount_2}}</td>
+    </tr>
+    <tr>
+    <td style="width: 80.125px;">3rd Week</td>
+    <td style="width: 97.0938px; text-align: center;">{{hours_3}}</td>
+    <td style="width: 76.1406px; text-align: center;">15</td>
+    <td style="width: 151.641px; text-align: center;">{{amount_3}}</td>
+    </tr>
+    <tr>
+    <td style="width: 80.125px;">4th Week</td>
+    <td style="width: 97.0938px; text-align: center;">{{hours_4}}</td>
+    <td style="width: 76.1406px; text-align: center;">15</td>
+    <td style="width: 151.641px; text-align: center;">{{amount_4}}</td>
+    </tr>
+    <tr>
+    <td style="width: 80.125px;">5th Week</td>
+    <td style="width: 97.0938px; text-align: center;">{{hours_5}}</td>
+    <td style="width: 76.1406px; text-align: center;">15</td>
+    <td style="width: 151.641px; text-align: center;">{{amount_5}}</td>
+    </tr>
+    </tbody>
+    </table>
+    <h2>&nbsp;</h2>
+    <h2><strong>TOTAL: </strong>RM{{total_amount}}</h2>
+    </div>
